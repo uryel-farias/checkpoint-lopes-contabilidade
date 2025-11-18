@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    padding: 20px 15px;
+}
+
+.header-img {
+
+}
+
+.header-paragrafo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.header-paragrafo a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #57C6F2;
+    border-radius: 5px;
+}
+
+.header-paragrafo a:hover {
+    color: #F2F2F2;
+    border-color: #F2F2F2;
+}
+
+/* ================================
+   320px — 480px (Dispositivos móveis)
+=================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* seu código aqui */
+}
+
+
+/* ================================
+   481px — 768px (iPads, tablets)
+=================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* seu código aqui */
+}
+
+
+/* ==========================================
+   769px — 1024px (Telas pequenas, laptops)
+============================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* seu código aqui */
+}

@@ -1,0 +1,57 @@
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+@import url(/styles/apresentacao.css);
+@import url(/styles/servicos.css);
+@import url(/styles/sobre-nos.css);
+@import url(/styles/contato.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Zalando Sans", sans-serif;
+}
+
+
+.header, .banner, .apresentacao, .servicos, .corretores, .contato {
+    text-align: center;
+}
+
+
+span {
+    font-weight: bold;
+}
+
+.cor-preto {
+    color: #0D0D0D;
+}
+.cor-branco {
+    color: #F2F2F2;
+}
+.cor-azul-escuro {
+    color: #033E8C;
+}
+.cor-azul-medio {
+    color: #1261A6;
+}
+.cor-azul-claro {
+    color: #57C6F2;
+}
+.cor-destaque {
+    color: #F2C849;
+}
+
+.fundo-preto {
+    background-color: #0D0D0D;
+}
+.fundo-branco {
+    background-color: #F2F2F2;
+}
+.fundo-azul-escuro {
+    background-color: #033E8C;
+}
+.fundo-azul-claro {
+    background-color: #57C6F2;
+}
+.fundo-azul-claro {
+    background-color: #fff81b;
+}
