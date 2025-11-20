@@ -33,14 +33,34 @@
    320px — 480px (Dispositivos móveis)
 =================================== */
 @media (min-width: 320px) and (max-width: 480px) {
-  /* seu código aqui */
+.sobre-nos {
+    padding: 50px 20px;
+}
+.sobre-nos-subtitulo {
+    font-size: 28px;
+}
+.sobre-nos-img {
+    width: 300px;
+}
+.sobre-nos-paragrafo {
+    font-size: 18px;
+}
+
 }
 
 /* ================================
    481px — 768px (iPads, tablets)
 =================================== */
 @media (min-width: 481px) and (max-width: 768px) {
-  /* seu código aqui */
+.sobre-nos-subtitulo {
+    font-size: 28px;
+}
+.sobre-nos-img {
+    width: 400px;
+}
+.sobre-nos-paragrafo {
+    font-size: 20px;
+}
 }
 
 /* ==========================================

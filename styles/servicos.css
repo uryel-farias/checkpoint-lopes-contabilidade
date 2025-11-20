@@ -25,4 +25,41 @@
     font-size: 22px;
 }
 
+/* ================================
+   320px — 480px (Dispositivos móveis)
+=================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+  .servicos {
+    padding: 50px 20px;
+  }
+    .servicos-subtitulo  {
+    font-size: 32px;
+}
+
+.servicos-paragrafo {
+    font-size: 18px;
+}
+
+.servicos-lista li {
+    font-size: 18px;
+}
+
+}
+
+/* ================================
+   481px — 768px (iPads, tablets)
+=================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  .servicos-subtitulo  {
+    font-size: 28px;
+}
+
+.servicos-paragrafo {
+    font-size: 20px;
+}
+
+.servicos-lista li {
+    font-size: 20px;
+}
+}
 
