@@ -1,36 +1,81 @@
 .contato {
-        background-color: #1d80c1;
+    padding: 100px 20px;
 }
 
 .contato-subtitulo {
-    color: #ffffff;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
+.contato-iframe {
+    max-width: 900px;
+}
 .contato-paragrafo {
-    color: #ffffff;
-    background-color: #1d1d1d;
     padding: 15px;
     margin: 30px auto;
+    font-size: 22px;
 }
 
 .contato-lista {
-    margin: 40px auto;
-    width: 250px;
-    list-style: none;   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;  
+
 }
 
 .contato-lista li {
     margin-top: 15px;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
 }
 
-.contato-lista li a {
-    background-color: #ffffff;
-    color: #1d80c1;
-    padding: 2px 5px;
+.contato-fone {
+    padding: 10px 25px;
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.contato-fone:hover {
+font-weight: bold;
+}
+
+/* ================================
+   320px — 480px (Dispositivos móveis)
+=================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+.contato {
+    padding: 50px 20PX 100px;
+}
+.contato-subtitulo {
+    font-size: 28px;
+}
+.contato-paragrafo {
+    font-size: 18px;
+}
+.contato-lista li {
+    font-size: 18px;
+}
+.contato-iframe {
+    width: 300px;
+    }
+}
+
+/* ================================
+   481px — 768px (iPads, tablets)
+=================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+.contato-iframe {
+    width: 400px;
+    }
+
+}
+
+/* ==========================================
+   769px — 1024px (Telas pequenas, laptops)
+============================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contato-iframe {
+    width: 600px;
+    }
 }
