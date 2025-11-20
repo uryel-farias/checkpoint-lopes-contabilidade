@@ -12,7 +12,7 @@
 }
 
 
-.header, .banner, .apresentacao, .servicos, .corretores, .contato {
+.header, .banner, .servicos, .corretores, .contato {
     text-align: center;
 }
 
@@ -66,8 +66,6 @@ span {
 =================================== */
 @media (min-width: 481px) and (max-width: 768px) {
   /* seu código aqui */
-
-  
 }
 
 /* ==========================================
