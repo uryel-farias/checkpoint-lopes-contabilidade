@@ -1,15 +1,53 @@
-.apresentacao-titulo {
-    color: #1d1d1d;
-    margin-bottom: 5px;
+.inicio-titulo {
+    font-size: 42px;
 }
 
-.apresentacao-subtitulo {
-    color: #1c81c0;
-    margin-top: 0;
+.inicio-subtitulo {
     font-weight: normal;
+    font-size: 24px;
+    text-align: center;
 }
 
-.apresentacao img {
-    margin-top: 30px;
-    width: 450px; 
+.inicio-paragrafo {
+    line-height: 32px;
+    font-size: 22px;
+    max-width: 900px;
+    padding-bottom: 50px;
+    text-align: center;
 }
+/* ================================
+   320px — 480px (Dispositivos móveis)
+=================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+.inicio-titulo {
+    font-size: 28px;
+}
+
+.inicio-subtitulo {
+    font-size: 18px;
+}
+
+.inicio-paragrafo {
+    font-size: 16px;
+
+}
+}
+
+/* ================================
+   481px — 768px (iPads, tablets)
+=================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  .inicio-titulo {
+    font-size: 32px;
+}
+
+.inicio-subtitulo {
+    font-size: 20px;
+}
+
+.inicio-paragrafo {
+    font-size: 18px;
+}
+
+}
+

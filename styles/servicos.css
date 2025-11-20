@@ -1,29 +1,26 @@
 .servicos {
-    background-color: #1d80c1;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .servicos-subtitulo  {
-    color: #ffffff;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 32px;
+    
 }
 
 .servicos-paragrafo {
-    color: #ffffff;
-    line-height: 42px;
+    line-height: 32px;
     font-size: 22px;
     text-align: center;
-    max-width: 700px;
-}
-
-.servicos-lista {
-    margin: 40px auto;
-    width: 135px;
+    max-width: 900px;
 }
 
 .servicos-lista li {
-    color: #ffffff;
-    line-height: 42px;
+    line-height: 32px;
     text-align: left;
     font-size: 22px;
 }

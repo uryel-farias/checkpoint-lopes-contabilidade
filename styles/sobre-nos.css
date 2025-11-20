@@ -1,13 +1,51 @@
-.corretores-subtitulo {
-    color: #1c81c0;
-    font-size: 28px;
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.sobre-nos-subtitulo {
+    font-size: 32px;
     line-height: 42px;
     margin-bottom: 15px;
 }
 
-.corretores-img {
-    width: 450px;
+.sobre-nos-img {
+    width: 600px;
+    box-shadow: black 0px 0px 10px 5px ;
+}
+
+.sobre-nos-paragrafo {
+    margin-top: 20px;
+    max-width: 900px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 22px;
+
 }
 
 
 
+/* ================================
+   320px — 480px (Dispositivos móveis)
+=================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+  /* seu código aqui */
+}
+
+/* ================================
+   481px — 768px (iPads, tablets)
+=================================== */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* seu código aqui */
+}
+
+/* ==========================================
+   769px — 1024px (Telas pequenas, laptops)
+============================================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* seu código aqui */
+}
